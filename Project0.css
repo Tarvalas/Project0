@@ -1,7 +1,36 @@
-a {
-    color:red;
+.links {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 10px;
 }
 
-a:visited {
-    color: springgreen;
+.searchcontainer {
+    position:absolute;
+    width: 100%;
+    top: 39%;
+}
+
+.searchbar {
+    position: relative;
+    text-align: center;
+}
+
+.textfield {
+    border-color: lightgray;
+    border-style: solid;
+    border-width: 1px;
+    width: 595px;
+    height: 40px;
+    border-radius: 25px;
+}
+
+.searchbutton {
+    position: relative;
+    border-style: solid;
+    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: ivory;
+    border-color: ivory;
 }
